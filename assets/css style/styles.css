@@ -1,0 +1,12 @@
+.crystal{
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+    margin: 15px;
+    padding: 20px;
+
+}
+
+.crystals{float: left;
+    margin: 15px;
+    padding: 20px;}
