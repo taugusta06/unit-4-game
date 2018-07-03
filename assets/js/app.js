@@ -45,13 +45,13 @@ for (i =0; i < 4; i++){
     var crystalNum = Math.floor(Math.random() *12) + 1;
     // console.log(crystalNum);
 
-    // var crystal = $("<div>");  working game attempt
-    var crystal = $("<image>");   //image attempt
+    // var crystal = $("<div>");  //working game attempt
+    var crystal = $("<div>");   //image attempt
         crystal.attr({
             "class": 'crystal',
             "randomPick": crystalNum});
 
-        crystal.html(crystalNum);
+        // crystal.html(crystalNum);
 
     $(".crystals").append(crystal);
 };
